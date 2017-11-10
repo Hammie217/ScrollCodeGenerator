@@ -47,7 +47,7 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QStringLiteral("MainWindow"));
-        MainWindow->resize(1247, 1062);
+        MainWindow->resize(598, 310);
         centralWidget = new QWidget(MainWindow);
         centralWidget->setObjectName(QStringLiteral("centralWidget"));
         lineEdit = new QLineEdit(centralWidget);
@@ -79,11 +79,11 @@ public:
         pushButton->setGeometry(QRect(130, 210, 85, 27));
         label_5 = new QLabel(centralWidget);
         label_5->setObjectName(QStringLiteral("label_5"));
-        label_5->setGeometry(QRect(290, 0, 931, 1011));
+        label_5->setGeometry(QRect(290, 0, 931, 221));
         MainWindow->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(MainWindow);
         menuBar->setObjectName(QStringLiteral("menuBar"));
-        menuBar->setGeometry(QRect(0, 0, 1247, 27));
+        menuBar->setGeometry(QRect(0, 0, 598, 27));
         MainWindow->setMenuBar(menuBar);
         mainToolBar = new QToolBar(MainWindow);
         mainToolBar->setObjectName(QStringLiteral("mainToolBar"));
